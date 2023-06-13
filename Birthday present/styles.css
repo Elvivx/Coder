@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: 'happy monkey', cursive;
+    text-align: center;
+    background: #0C9;
+    color: azure;
+    font-size: large;
+    text-shadow: 0px 0px 2px black;
+
+}
+#bday-img{
+    border-radius: 100% ;
+    width: 250px;
+    height: 250px;
+    border: 4px solid #EFB0C9;
+  
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px; 
+
+}
+#bday-age, #bday-yr {
+    background: #EFB0C9;
+    border: 1px solid #EFB0C9;
+    padding: 3px;
+    border-radius: 2px;
+    margin: 8px;
+}
+#gift-cover{
+    margin-top: 15px;
+}
+#gift{
+    width: 500px;
+    border-radius: 7px;
+    border: 4px solid white ;
+}
+.gifts{
+    background-image: url("img/gift-cover.jpg");
+    background-size: 500px;
+    width: 500px;
+    display: block;
+    margin: 0 auto 23px auto;
+    border-radius: 7px;
+    border: 4px solid white ;
+    height: 500px;
+
+
+}
+#gift:hover{
+    background-image: url("img/giphy.gif");
+    background-size: cover;
+    transform: scale(110%);
+    transition: 1.1s;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+#gif:hover{
+    background-image: url("img/gipy.gif");
+    background-size: cover;
+    transform: scale(110%);
+    transition: 1.1s;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
